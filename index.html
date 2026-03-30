@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Ramadan</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.3);
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #2ecc71;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #27ae60;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #2ecc71;
+            transform: scale(1.05);
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            color: black;
+            margin: 15px;
+            padding: 25px;
+            width: 250px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #27ae60;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        /* tombol home mengambang */
+        .floating-home {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #27ae60;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 20px;
+            text-decoration: none;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
+        }
+
+        .floating-home:hover {
+            background: #2ecc71;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌙 Website Ramadan</h1>
+        <p>Selamat Datang di Kegiatan Bulan Suci</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a>
+
+    </nav>
+
+    <section class="hero">
+        <h2>Marhaban Ya Ramadan ✨</h2>
+        <p>Mari isi bulan Ramadan dengan kegiatan yang bermanfaat dan penuh berkah.</p>
+
+
+        <div class="menu">
+
+            <div class="card">
+                <h3>Kegiatan</h3>
+                <p>Lihat kegiatan seperti bukber & berbagi.</p>
+                <a href="kegiatan.html">Masuk →</a>
+            </div>
+
+            <div class="card">
+                <h3>Jadwal</h3>
+                <p>Cek jadwal imsakiyah Ramadan.</p>
+                <a href="jadwal.html">Masuk →</a>
+            </div>
+
+            <div class="card">
+                <h3>Lebaran</h3>
+                <p>Cek Lebaran.</p>
+                <a href="Lebaran.html">Masuk →</a>
+                <div>
+
+                    <div>
+
+                        <footer>
+                            <p>&copy; 2026 Website Ramadan</p>
+                        </footer>
+
+                        <!-- tombol home (selalu ada) -->
+                        <a href="index.html" class="floating-home">🏠</a>
+
+</body>
+
+</html>
